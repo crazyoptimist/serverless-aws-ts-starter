@@ -1,0 +1,14 @@
+.vscode
+*.log
+node_modules/
+*.out
+!*.secret
+*.env
+.env.prod
+.env.stag*
+.env.dev
+.nyc_output/
+*.crt
+coverage
+.serverless
+.build
