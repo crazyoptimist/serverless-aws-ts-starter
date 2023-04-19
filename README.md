@@ -45,7 +45,7 @@
 
 ## Observability
 
-- Defind key application parameters to observe/monitor.
+- Define key application parameters to observe/monitor.
 
 ## Request Validation
 
@@ -67,7 +67,7 @@
 ## Deployment
 
 - Create an IAM user with fine-grained permissions for deployment
-- Store dot env files for each environments(a.k.a. stages in serverless), and create `.env` file in the CD pipeline from it. Managing secrets would be differnt and you can persue your favorite way of managing it. Below is an example case of GHA.
+- Store dot env files as secrets for each environments(a.k.a. stages in serverless), and create `.env` file in the CD pipeline from them. Managing secrets would be differnt and you can persue your favorite way of managing it. Below is an example case of GHA.
 
   ```bash
   cat secrets.PROD.ENV > .env
