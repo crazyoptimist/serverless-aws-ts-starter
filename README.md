@@ -49,20 +49,11 @@
 
 ## Request Validation
 
-- Recommend to use `zod` or `yup` for validating `event.body`.
+- You can use `zod` or `yup` for validating `event.body`.
 
 ## Documentation
 
-- Recommend to use [Declarative Diagramming(D2) language](https://d2lang.com/) to document application design.
-
-  ```bash
-  d2 --watch docs/workflow.d2
-  ```
-
-- For code documentations, we use typescript, unit testing, and plain comments smartly.
-- What to put in comments?
-  - Why it's written that way.
-  - Clear explanation of a specific nomenclature(domain language).
+- You can use [Declarative Diagramming(D2) language](https://d2lang.com/) to document application design.
 
 ## Deployment
 
